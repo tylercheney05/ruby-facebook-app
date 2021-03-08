@@ -8,7 +8,7 @@ const Profile = ({ profile }) => {
       <p>Email: {email}</p>
       <p>Phone: {phone}</p>
       <br></br>
-      <a href={`profiles/${id}/posts`}>Posts</a>
+      <a href={`/profiles/${id}/posts`}>Posts</a>
     </>
   )
 }
